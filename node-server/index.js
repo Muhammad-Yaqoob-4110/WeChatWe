@@ -3,6 +3,9 @@
 const io = require('socket.io')(8000)
 const users = {};
 
+
+console.log('Server is started on port 8000! Go and talk with your friend.');
+
 io.on('connection',socket=>{
     socket.on('new-user-joined',name =>{
         // console.log("New user",name);
