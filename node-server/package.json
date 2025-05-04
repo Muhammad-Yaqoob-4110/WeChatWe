@@ -1,12 +1,12 @@
 {
-  "name": "nodeserver",
+  "name": "node-server",
   "version": "1.0.0",
   "description": "This is a node server with for chat",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "aliahmed",
+  "author": "myaqoob",
   "license": "ISC",
   "dependencies": {
     "nodemon": "^2.0.20",
